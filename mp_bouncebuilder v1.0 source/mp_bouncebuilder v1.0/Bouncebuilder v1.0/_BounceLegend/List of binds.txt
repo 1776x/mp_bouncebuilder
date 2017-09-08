@@ -1,0 +1,30 @@
+Move Object Downwards: "openscriptmenu -1 move:x:x:DOWN:x"
+Move Object Upwards: "openscriptmenu -1 move:x:x:UP:x"
+Move Object to North: "openscriptmenu -1 move:x:x:FORWARD:x"
+Move Object to East: "openscriptmenu -1 move:x:x:LEFT:x"
+Move Object to South: "openscriptmenu -1 move:x:x:BACKWARD:x"
+Move Object to West: "openscriptmenu -1 move:x:x:RIGHT:x"
+Rotate Object Left: "openscriptmenu -1 rotateleft:x:x:x:x"
+Rotate Object Right: "openscriptmenu -1 rotate:x:x:x:x"
+
+Reset Position of Object: "openscriptmenu -1 restore:bounce:x:x"
+Reset Angle of Object: "openscriptmenu -1 restore:angle:x:x"
+Reset all Objects: "openscriptmenu -1 restore:all"
+
+Place Object: "openscriptmenu -1 place:x"
+
+Select last Object in List: "openscriptmenu -1 select:prev"
+Select next Object in List: "openscriptmenu -1 select:next"
+Select Object via Lookon: "openscriptmenu -1 select:eye"
+
+
+Change Rotation Axis: "openscriptmenu -1 change:axis"
+Change Angle Steps: "openscriptmenu -1 change:angle"
+Change Distance Steps: "openscriptmenu -1 change:distance"
+Select Bouncelist: "openscriptmenu -1 change:type:bounce"
+Select Platformlist: "openscriptmenu -1 change:type:plate"
+
+Save Project: "openscriptmenu -1 project:save"
+Load Project: "openscriptmenu -1 project:restore"
+
+Undo last Action: "openscriptmenu -1 undo:x"
